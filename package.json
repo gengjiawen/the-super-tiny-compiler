@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "author": "James Kyle <me@thejameskyle.com> (thejameskyle.com)",
   "license": "CC-BY-4.0",
-  "main": "./the-super-tiny-compiler.js"
+  "main": "./the-super-tiny-compiler.js",
+  "scripts": {
+    "remove-comments": "babel the-super-tiny-compiler.js --out-dir ./dist/"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
